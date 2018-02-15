@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+#div1{
+    display: none;
+}
+#div2{
+    display: none;
+}
+#div3{
+    display: none;
+}
+.letter{
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+}
+.current-word{
+    list-style: none;
+}
+.correct{
+    background-color: green;
+}

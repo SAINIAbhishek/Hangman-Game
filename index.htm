@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Test</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="javascript.js"></script>
+    </head>
+    <body>
+        <h1>Simple Hangman Game!</h1>
+        <h1><button onclick="start()">Start Game</button> &nbsp; &nbsp; <button onclick="restart()">Restart Game</button></h1>
+        <hr>
+        <div id="div1">
+            <h1>Select the level of difficulty:</h1>
+            <h1><button onclick="level1()">Level 1</button> &nbsp; &nbsp; <button onclick="level2()">Level 2</button> &nbsp; &nbsp; <button onclick="level3()">Level 3</button></h1>
+            <hr>
+        </div>
+        <div id="div2">
+            <h1>Selected difficult level: <strong><span id="level"></span></strong></h1>
+            <form>
+                <p>Enter a letter in the box to guess the word.</p>
+                <input type="text" maxlength="1" minlength="1" name="letter" placeholder="Guess a letter" id="letter">
+                <input id="guess-button" name="guess" type="submit" value="Guess"/> 
+            </form>
+            <ul id="letters"></ul>
+            <p id="error"></p>
+        </div> 
+        <div id="div3">
+            <h1>You won!</h1>
+            <h1>The correct word was: <strong><span id="correct-word"></span></strong></h1>
+            <h1>Total wrong gusses: <strong><span id="wrong-word"></span></strong></h1>
+            <h1>Click the start button to play again!</h1>
+        </div>
+    </body>
+</html>
