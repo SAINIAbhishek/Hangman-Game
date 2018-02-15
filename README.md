@@ -4,4 +4,4 @@ This the popular hangman game developed using the languages HTML, CSS and JavaSc
 
 This game is divided into three levels. 
 
-To visit this application click on this link "http://abhisheksaini.eu/projects/hangman-game/".
+To visit this application, click on this link "http://abhisheksaini.eu/projects/hangman-game/".
